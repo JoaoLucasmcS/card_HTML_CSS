@@ -1,0 +1,85 @@
+@font-face {
+    font-family: Figtree ;
+    src: url(assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Figtree2 ;
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f4d04e;
+}
+
+
+.card {
+    width: 384px;
+    border: 1px solid black;
+    background-color: white;
+    margin: 20% 30%;
+    border-radius: 5%;
+    padding: 2%;
+}
+
+.card_imagem {
+    width: 100%;
+    text-align: center;
+}
+
+.card_imagem_conteudo {
+    border-radius: 6%;
+    width: 100%;
+}
+
+.card_textos h5 {
+    background-color: #f4d04e;
+    width: fit-content;
+    margin-top: 4%;
+    margin-bottom: 3%;
+    padding: 6px 6px;
+    border-radius: 8%;
+    font-family: Figtree2;
+    font-weight: 900;
+}
+
+.card_textos_data {
+    font-family: Figtree2;
+    font-size: small;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 4%;
+}
+
+.card_textos h2 {
+    font-family: Figtree2;
+    font-weight: 800;
+    margin-bottom: 4%;
+}
+
+.card_textos p {
+    font-family: Figtree2;
+    color: #7F7F7F;
+    font-weight: 500;
+}
+
+.card_pessoa {
+    display: flex;
+    padding-top: 5%;
+    gap: 4%;
+}
+
+.card_pessoa_imagem img {
+  width: 34px;
+}
+
+.card_pessoa h4 {
+    font-family: Figtree2;
+    padding-top: 4px;
+    font-weight: 900;
+}
